@@ -199,6 +199,7 @@ ul {
   .proqual-img {
     height: 100px;
     width: 150px;
+    overflow: hidden;
   }
 }
 
