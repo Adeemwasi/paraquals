@@ -195,11 +195,11 @@ ul {
     justify-content: center;
     margin-left: 50px;
     padding-bottom: 50px;
+    padding-right: 50px;
   }
   .proqual-img {
     height: 100px;
     width: 150px;
-    overflow: hidden;
   }
 }
 
