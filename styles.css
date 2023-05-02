@@ -196,6 +196,10 @@ ul {
     margin-left: 50px;
     padding-bottom: 50px;
   }
+  .proqual-img {
+    height: 200px;
+    width: 300px;
+  }
 }
 
 @media (max-width: 760px) {
