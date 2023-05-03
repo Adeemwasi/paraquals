@@ -2,11 +2,11 @@
   display: flex;
   background-color: #222831;
   margin: 0px;
-  flex-basis: 70px;
+  flex-basis: 50px;
   flex-wrap: nowrap;
 }
 .logo {
-  margin-left: 130px;
+  margin-left: 30px;
   margin-top: 5px;
   float: left;
 }
@@ -62,9 +62,9 @@
   padding-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 50px;
-  height: 70vh;
+  height: 60vh;
 }
 .table {
   border: none;
@@ -84,17 +84,16 @@ th {
 }
 .pricing {
   background-color: #eeeeee;
-  margin-bottom: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 .pricing-a {
   display: flex;
-  flex-basis: auto;
+  flex-basis: 300;
   height: 50vh;
   gap: 15px;
   padding-top: 40px;
   padding-bottom: 300px;
-
+  padding-right: 0;
   justify-content: center;
   text-align: center;
   font-family: "Kanit", sans-serif;
@@ -176,6 +175,7 @@ ul {
 @media (max-width: 760px) {
   .navbar-list {
     display: flex;
+    gap: 0px;
     flex-direction: column;
     height: 60vh;
     flex-shrink: 0;
@@ -191,15 +191,23 @@ ul {
   .courses {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    flex-basis: 250px;
+    height: 70vh;
     justify-content: center;
-    padding-bottom: 50px;
     padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
   }
   .proqual-img {
     height: 100px;
     width: 150px;
     margin-right: 0px;
+  }
+  .main-img {
+    border: 0px;
+    margin: 0px;
   }
 }
 
@@ -208,17 +216,20 @@ ul {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 300px;
-    padding-top: 50px;
+    flex-basis: 230px;
+    padding-top: 10px;
     padding-bottom: 70px;
     justify-content: center;
     margin-right: 0px;
+    margin-left: 0px;
   }
   .pricing {
-    padding-top: 250px;
-    padding-bottom: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-bottom: 0px;
     background-color: #9ed2c6;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media (max-width: 760px) {
