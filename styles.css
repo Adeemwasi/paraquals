@@ -190,7 +190,7 @@ ul {
     display: flex;
     gap: 0px;
     flex-direction: column;
-    height: 60vh;
+    height: 40vh;
     flex-shrink: 0;
     justify-content: space-between;
   }
@@ -253,7 +253,7 @@ ul {
   ul {
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 40vh;
     flex-shrink: 0;
   }
   .bhamma {
