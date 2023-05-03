@@ -239,8 +239,8 @@ ul {
     flex-direction: column;
     height: 100vh;
     flex-basis: auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-right: 0px;
     margin-left: 0px;
     flex-grow: 0;
