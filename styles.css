@@ -57,6 +57,10 @@
 }
 .jhaab {
   background-color: #00adb5;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .courses {
   padding-top: 50px;
@@ -88,11 +92,13 @@ th {
 }
 .pricing-a {
   display: flex;
-  flex-basis: 300;
-  height: 50vh;
+  width: 250;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 70vh;
   gap: 15px;
   padding-top: 40px;
-  padding-bottom: 300px;
+  padding-bottom: 40px;
   padding-right: 0;
   justify-content: center;
   text-align: center;
@@ -212,24 +218,27 @@ ul {
 }
 
 @media (max-width: 760px) {
-  .pricing-a {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    flex-basis: 230px;
-    padding-top: 10px;
-    padding-bottom: 70px;
-    justify-content: center;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
   .pricing {
-    padding-top: 50px;
+    padding-top: 90px;
     padding-bottom: 50px;
     margin-bottom: 0px;
     background-color: #9ed2c6;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-a {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-basis: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-right: 0px;
+    margin-left: 0px;
+    flex-grow: 0;
+    flex-shrink: 0;
   }
 }
 @media (max-width: 760px) {
