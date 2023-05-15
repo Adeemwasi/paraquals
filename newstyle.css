@@ -1,4 +1,5 @@
 .navbar {
+  position: relative;
   display: flex;
   background-color: #222831;
   margin: 0px;
@@ -9,6 +10,7 @@
   margin-left: 30px;
   margin-top: 5px;
   float: left;
+  border-radius: 5px;
 }
 .navbar-list {
   display: flex;
@@ -20,12 +22,28 @@
   color: #00adb5;
   font-family: "Kanit", sans-serif;
   font-weight: 500;
+  border-radius: 15px;
 }
 .list {
-  width: 80px;
+  width: auto;
+  border-radius: 7px;
+  position: relative;
 }
 .main {
   background-color: #00adb5;
+}
+.banner {
+  color: #00adb5;
+  font-size: larger;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  top: 50%;
+  right: 70%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  margin-left: 250px;
+  border-radius: 10px;
 }
 
 .main-img {
@@ -175,7 +193,7 @@ h5 {
   margin: 10px;
 }
 .footer {
-  background-color: #393e46;
+  background-color: #222831;
   color: #00adb5;
   padding-top: 25px;
 }
@@ -193,6 +211,73 @@ ul {
 .links {
   color: #00adb5;
   text-decoration: none;
+}
+.link-1 {
+  text-decoration: none;
+}
+.news-section {
+  background-color: #00adb5;
+  padding: 30px;
+  height: 20vh;
+}
+.chev {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.img-left {
+  display: flex;
+  justify-content: center;
+  min-width: 20px;
+  height: 50px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+.img-right {
+  display: flex;
+  justify-content: center;
+  min-width: 20px;
+  height: 50px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  flex-basis: 80%;
+}
+.news-1 {
+  display: inline-block;
+}
+.news-li {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  width: auto;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: large;
+}
+.pressed {
+  color: white !important;
+  text-shadow: 5px 5px 10px rgb(89, 55, 169);
+  box-shadow: 5px 5px 10px rgb(247, 247, 248);
+}
+
+.pressed2 {
+  color: #393e46 !important;
+  text-shadow: 5px 5px 10px rgb(89, 55, 169);
+  box-shadow: 5px 5px 10px #393e46;
+  background-color: #393e46;
 }
 @media (max-width: 760px) {
   .navbar-list {
